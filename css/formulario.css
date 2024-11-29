@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+    margin: 3px;
+    font-size: 17px;
+    color: #080808;
+}
+
+input {
+    width: 280px;
+    height: 28px;
+    border: none;
+    border-bottom: 2px solid #b4b4be;
+    
+}
+
+
+input:focus {
+   
+    outline: none;
+    border-bottom: 2px solid #888891;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 2px;
+    width: 180px;
+    color: rgb(138, 153, 116);
+    border-bottom: 3px solid #78788c;
+
+}
+
+form {
+    width: 300px;
+    height: 425px;
+    background: #e6e6e6;
+    border-radius: 10px;
+    
+    padding-left: 15px;
+    padding-top: 15px;
+    box-shadow: 5px 3px 3px 3px rgb(10, 10, 10);
+}
+
+.caja1{
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-bottom: 2px solid #b4b4be;
+}
+.caja{
+    width: 280px;
+    height: 80px;
+
+}
+button {
+    background: #e6e6e6;
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+    color: #5a5a5a;
+    font-size: 17px;
+    cursor:pointer;
+    border:2px solid #78788c,
+}
+
+.boton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
